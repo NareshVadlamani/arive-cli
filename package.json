@@ -1,0 +1,62 @@
+{
+  "name": "arive-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@styled-system/should-forward-prop": "^5.1.5",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-split-pane": "^0.1.67",
+    "@types/styled-system": "^5.1.12",
+    "@types/styled-system__should-forward-prop": "^5.1.2",
+    "check-prop-types": "^1.1.2",
+    "enzyme-to-json": "^3.6.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^7.2.4",
+    "react-scripts": "4.0.3",
+    "react-split-pane": "^0.1.92",
+    "redux": "^4.1.0",
+    "redux-mock-store": "^1.5.4",
+    "sass": "^1.35.2",
+    "sinon": "^11.1.1",
+    "styled-system": "^5.1.5",
+    "typescript": "^4.3.5",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "jest-enzyme": "^7.1.2"
+  }
+}

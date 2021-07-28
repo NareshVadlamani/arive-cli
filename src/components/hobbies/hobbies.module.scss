@@ -1,0 +1,63 @@
+.black_border {
+  border: 1px solid black;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.cursor_pointer {
+  cursor: pointer;
+}
+
+.hobby_input {
+  @extend .black_border;
+  @extend .padding;
+  @extend .hobby_item;
+  outline: none;
+  width: calc(100% - 19px);
+}
+.hobby_select {
+  @extend .hobby_input;
+  background: white;
+  width: 100%;
+  height: 37px;
+}
+.hobby_List_item {
+  @extend .padding;
+  border: 1px solid black;
+}
+
+.hobby_item {
+  flex: 1;
+  position: relative;
+}
+
+.add_button {
+  @extend .black_border;
+  @extend .padding;
+  @extend .cursor_pointer;
+  background: none;
+  width: 50px;
+  font-weight: bold;
+}
+
+.error_msg {
+  position: absolute;
+  bottom: 3px;
+  color: red;
+  padding: 0px 5px;
+  font-size: 10px;
+}
+
+.hobby_list_hlder {
+  height: 100vh;
+  overflow: scroll;
+}
+.delete_hobby {
+  @extend .cursor_pointer;
+}

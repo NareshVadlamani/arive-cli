@@ -1,0 +1,15 @@
+.black_border {
+  border: 1px solid black;
+}
+.table-container {
+  width: 100%;
+}
+.heading {
+  @extend .black_border;
+  padding: 10px 15px;
+}
+
+.app_contanier {
+  width: 60%;
+  margin: 20px auto;
+}

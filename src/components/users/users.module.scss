@@ -1,0 +1,51 @@
+.black_border {
+  border: 1px solid black;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.user_input {
+  @extend .black_border;
+  @extend .padding;
+  outline: none;
+  width: 100%;
+  z-index: 2;
+}
+.user_List_item {
+  @extend .black_border;
+  @extend .padding;
+}
+
+.add_button {
+  @extend .black_border;
+  @extend .padding;
+  background: none;
+  width: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add_button_hldr {
+  text-align: end;
+  z-index: 1;
+  background: white;
+}
+
+.error_msg {
+  position: absolute;
+  bottom: 3px;
+  color: red;
+  padding: 0px 5px;
+  font-size: 10px;
+}
+
+.user_list_hlder {
+  height: 100vh;
+  overflow: scroll;
+}
